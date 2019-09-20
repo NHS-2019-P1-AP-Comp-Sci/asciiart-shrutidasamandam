@@ -14,14 +14,49 @@
  *
  */
 
-// YOU CODE HERE :) 
-
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		makeEars();
+		makeHead();
+		makeThirdBody();
+		makeFourthBody();
+		makeSpeech();
+		
 	}
-}
+	public static void makeHead(){
+	System.out.println("    = = =");
+    System.out.println("  =  \' \'  =");
+	System.out.println("  =   ^   =");
+    System.out.println("  =   U   =");
+    System.out.println("    = = =");
+	}
+	public static void makeEars() {
+		System.out.println(" = =     = = " );                       
+		System.out.println("=   =   =   = ");
+		System.out.println(" = =     = =  ");              		
+	}
+	public static void makeSpeech() {
+		System.out.print(" Snowman Mickey Mouse loves AP Computer Science " );
+	}
+	public static void makeThirdBody() {
+		System.out.println("    = = =");
+	    System.out.println(" \\=       =/");
+		System.out.println("  =   *   =");
+	    System.out.println("  =       =");
+	    System.out.println("    = = =");
+	}
+	public static void makeFourthBody() {
+			System.out.println("   = = = =");
+		    System.out.println("  =        =");
+			System.out.println("  =   *    =");
+		    System.out.println("  =        =");
+		    System.out.println("   = = = =");
+		}
+		
+	}
+
+
+
+	
+	
+	
